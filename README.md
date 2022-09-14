@@ -1,6 +1,6 @@
 20220914 media queries
 
-Link zur Seite: 
+Link zur Seite: https://weimingtay.github.io/20220914_001_mediaQueries/
 
 # Aufgabenstellung
 
