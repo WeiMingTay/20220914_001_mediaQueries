@@ -1,0 +1,90 @@
+/* ==========
+ALLGEMEIN
+========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    height: 10vh;
+    background-color: beige;
+    margin: .2rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+/* ==========
+header
+========== */
+.header {
+    background-color:aqua;
+}
+/* ==========
+main
+========== */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.article1 {
+    background-color: green;
+}
+.article2 {
+    background-color: orange;
+}
+.article3 {
+    background-color: palevioletred;
+}
+.article4 {
+    background-color: greenyellow;
+}
+.aside {
+    height: 20vh;
+    background-color: purple;
+}
+/* ==========
+footer
+========== */
+.footer {
+    background-color: steelblue;
+}
+
+/* ==========
+MEDIA QUERIES
+========== */
+@media only screen and (max-width:768px) {
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    div {
+        border-radius: 5px;
+    }
+    .aside {
+        height: 10vh;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+    div {
+        border-radius: 2px;
+    }
+    .aside {
+        height: 10vh;
+    }
+}
